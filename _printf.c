@@ -5,6 +5,7 @@
  * @c: The character to print.
  *
  * Return: The number of characters printed.
+ * _printf - Printf function
  */
 int _printf_char(char c)
 {
