@@ -14,6 +14,10 @@ int _printf(const char *format, ...);
 int op_ch(va_list arg);
 int op_st(va_list arg);
 int op_nu(va_list arg);
+int print_char(va_list C);
+int print_string(va_list S);
+int print_int(va_list i);
+int print_dec(va_list d);
 
 /*Advanced functions*/
 int op_fl(va_list arg);
